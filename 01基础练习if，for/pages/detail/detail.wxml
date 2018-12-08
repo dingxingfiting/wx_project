@@ -1,0 +1,4 @@
+<text class="" wx:if="{{isShow}}">hello world  </text>
+<button bind:tap="handleClick">切换</button>
+<image src="{{isMusic?'/images/play.png':'/images/pause.png'}}" bind:tap="onMusic" />
+<view wx:for="{{arr}}">{{item}}</view>
