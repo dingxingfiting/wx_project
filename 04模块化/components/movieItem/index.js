@@ -21,9 +21,11 @@ Component({
    */
   methods: {
     handleDetail(){
-      console.log(this.properties.movie.id)
+      var id = this.properties.movie.id;
+      wx.navigateTo({
+        url: '/pages/detail/detail?id='+id
+      })
     }
-
   }
 
 })

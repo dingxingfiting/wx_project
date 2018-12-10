@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/map/map"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#333",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {  
+    "color": "#666",
+    "selectedColor": "#3785F9",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "/images/tab/map.png",
+        "selectedIconPath": "/images/tab/map_hl.png"
+      }
+    ]
+  }
+}

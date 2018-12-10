@@ -8,14 +8,12 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true,
-		"nodeModules": false,
-		"uglifyFileName": false
+		"newFeature": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.1",
-	"appid": "wxe11e5ccaa10a9389",
-	"projectname": "03%E6%8E%A5%E5%8F%A3%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE",
+	"appid": "wx34a3f9fab1c564bf",
+	"projectname": "04",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

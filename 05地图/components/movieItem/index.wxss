@@ -1,0 +1,11 @@
+image{
+    width:200rpx;
+    height:270rpx;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+view,text{
+    font-size: 25rpx;
+}

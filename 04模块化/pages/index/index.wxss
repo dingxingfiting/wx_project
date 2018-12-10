@@ -1,0 +1,9 @@
+.container{
+    padding:30rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+movie-item{
+    margin-top: 20px;
+}

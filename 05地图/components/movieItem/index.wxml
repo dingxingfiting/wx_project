@@ -1,0 +1,5 @@
+<view class="container" bind:tap="handleDetail">
+    <image src="{{movie.imageUrl}}"></image>
+    <text>{{movie.title}}</text>
+    <view>评分<text>{{movie.average}}</text></view>
+</view>
