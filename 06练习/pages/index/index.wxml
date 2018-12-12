@@ -1,0 +1,22 @@
+<!--pages/index/index.wxml-->
+<!-- index.wxml -->
+<!-- 页面引入 -->
+<include src="header.wxml"/>
+<view> body </view>
+<include src="footer.wxml"/>
+<!-- 轮播 -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key = "index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 页面跳转,页面之间的值传递 -->
+<navigator url="../list/list?type=in_theaters" redirect="false" hover-class="none" open-type="navigate|redirect|switchTab">
+                <view class="board-item center">
+                    <text>{{item}}</text>
+                    <image src="../../images/timg.jpg" mode="aspectFill" />
+                </view>
+ </navigator>

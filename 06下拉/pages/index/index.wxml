@@ -1,0 +1,5 @@
+<view class="container">
+    <movie-item wx:for="{{movies}}" wx:key="{{index}}" movie="{{item}}"></movie-item>
+</view>
+<view  class='loading' wx:if="{{isShow}}">加载更多数据
+<image src="/images/loading.gif"></image></view>

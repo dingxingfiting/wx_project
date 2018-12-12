@@ -1,0 +1,28 @@
+.container{
+    padding:30rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    position: relative;
+}
+movie-item{
+    margin-top: 20px;
+}
+.loading{
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    left:0;
+    background: #fff;
+    width:750rpx;
+    border-top: 1rpx solid #eee;
+    justify-content: center;
+    display: flex;
+    height:80rpx;
+    align-items: center;
+}
+.loading image{
+    width:50rpx;
+    height:50rpx;
+}

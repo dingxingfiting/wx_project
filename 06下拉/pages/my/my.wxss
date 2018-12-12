@@ -1,0 +1,9 @@
+/* pages/my/my.wxss */
+.logo{
+  width :300rpx;
+  height: 300rpx;
+}
+.container{
+  padding-top: 50px;
+  text-align:center;
+}

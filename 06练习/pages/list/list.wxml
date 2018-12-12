@@ -1,0 +1,3 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+<view>{{ msg }}</view> <button bindtap="handleClick">点击我</button>

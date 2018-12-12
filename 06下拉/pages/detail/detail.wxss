@@ -1,0 +1,15 @@
+image{
+    width:400rpx;
+    height:540rpx;
+}
+text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#333;
+    font-size: 30rpx;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,5 @@
+/* pages/map/map.wxss */
+#map,page{
+    width:100%;
+    height:100%;
+}

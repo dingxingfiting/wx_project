@@ -1,0 +1,4 @@
+<view class="container">
+    <text>{{title}}</text>
+    <image src="{{imageUrl}}"></image>
+</view>
